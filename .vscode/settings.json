@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": false,
+    "[C]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.formatOnSave": true
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.formatOnSave": true
+    },
+    "files.associations": {
+        "*.h": "c",
+        "*.hpp": "cpp",
+        "*.c": "c",
+        "*.cpp": "cpp",
+        "*.cc": "cpp",
+        "*.cxx": "cpp"
+    }
+}

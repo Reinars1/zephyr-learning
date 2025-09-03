@@ -1,0 +1,24 @@
+{
+    "name": "Docker Learn",
+    "privileged": true,
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    // "customizations": {
+    //     "vscode": {
+    //         "extensions": [ // Recommended extensions
+    //             "anysphere.cpptools", // C/C++ intellisense
+    //             "kylinideteam.cmake-intellisence", // CMake intellisense
+    //             "xaver.clang-format", // clang-format support
+    //             "gruntfuggly.todo-tree", // List for todo's
+    //             "actboy168.tasks", // Task buttons on bottom
+    //             "shardulm94.trailing-spaces", // Trailing spaces highlighting
+    //             "jeff-hykin.better-cpp-syntax", // Better C++ Syntax highlighting
+    //             "aaron-bond.better-comments", // Better comment highlighting
+    //             "marus25.cortex-debug" // Cortex Debug
+    //         ]
+    //     }
+    // }
+}
